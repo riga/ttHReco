@@ -1,0 +1,10 @@
+prefix=${pcfiledir}/../..
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: ttHReco
+Description: Common ttH reconstruction package
+Version: 0.0.1
+Libs: -L${libdir} -lttHReco
+Cflags: -I${includedir}
